@@ -1,18 +1,38 @@
 .container {
-    background: #eee;
-    border: 1px solid #c00;
-    margin-bottom: 20px;
-    padding: 10px;
-    position: relative;
+    list-style: none;
+    background-image:linear-gradient(to right, rgb(204,0,0),white 13%);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 0, 0);
+    margin : 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow:0px 10px 10px #575755
 }
 
 .title {
     color: #c00;
     font-size: 2rem;
-    margin: .5rem 0;
+    margin: 10px, 10px, 10px, 250px;
 }
 
 .pubDate {
     font-weight: bold;
     font-size: smaller;
+}
+
+.img{
+    width: 20%;
+    margin: 1.66%;
+    float: left;
+}
+
+.other{
+    display: inline-block;
+    width: 75%;
+    margin-right: 0;
+}
+
+.button{
+    float: right;
+    margin-right: 0;
 }
