@@ -1,12 +1,18 @@
 .container {
-    list-style: none;
     background-image:linear-gradient(to right, rgb(204,0,0),white 13%);
+    position: relative;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(204, 0, 0);
     margin : 20px 20px 20px 20px;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow:0px 10px 10px #575755
+    box-shadow:0px 10px 10px rgb(87, 85, 85);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 575px;
+
 }
 
 .title {
@@ -23,16 +29,21 @@
 .img{
     width: 20%;
     margin: 1.66%;
+    margin-bottom: 30px;
     float: left;
 }
 
 .other{
     display: inline-block;
-    width: 75%;
+    width: 100%;
     margin-right: 0;
+    margin-bottom: 20px;
+    align-self: center;
 }
-
 .button{
-    float: right;
+    float: center;
     margin-right: 0;
+    align-content: stretch;
+    position: absolute;
+    bottom:5%
 }

@@ -10,8 +10,7 @@ const ArticleListItem = props => {
       <h3 className={styles.title}>{props.article.title}</h3>
       <p>{props.article.shortText}</p>
       <time className={styles.pubDate} dateTime={props.article.pubYear}>{props.article.pubDate}</time>
-      <SlugButton slug={props.article.slug} buttonText={props.article.author} />
-      </div>
+      <div className={styles.button}><SlugButton slug={props.article.slug} buttonText={props.article.author}/></div>      </div>
     </div>
   );
 };

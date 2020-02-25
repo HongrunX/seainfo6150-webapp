@@ -1,9 +1,10 @@
 img{
     background-color: red;
-    width: 120px;
-    height: 70px;
+    position: relative;
+    width: 200px;
+    height: 100px;
     border-radius: 50%;
     border: 8px solid;
     border-color: rgb(204, 0, 0);
-    box-shadow: 0px, 10px, 10px, rgb(87, 85, 85);
+    box-shadow: 0px 10px 10px  rgb(87, 85, 85);
 }
