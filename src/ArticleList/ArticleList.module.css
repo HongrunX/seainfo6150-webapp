@@ -14,3 +14,28 @@
     width: 100%;
     /* align-self: center; */
 }
+@media(max-width: 600px){
+    .container{
+        background-color: black;
+        grid-template-columns: auto;
+    }
+}
+
+@media(min-width: 600px){
+    .container{
+        background-color: black;
+        grid-template-columns: auto;
+    }
+}
+@media(min-width: 800px){
+    .container{
+        background-color: yellow;
+        grid-template-columns: auto auto;
+    }
+}
+@media(min-width: 1000px){
+    .container{
+        background-color: purple;
+        grid-template-columns: auto auto auto;
+    }
+}
